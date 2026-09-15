@@ -4,15 +4,15 @@ import Sparkle from './Sparkle'
 import { playClick } from '../lib/sound'
 
 const SPARKLES = [
-  { x: 12, y: 18, color: '#ffb36b', size: 14, delay: 0 },
-  { x: 22, y: 68, color: '#f6a55e', size: 10, delay: 0.8 },
+  { x: 12, y: 18, color: '#ffb1d0', size: 14, delay: 0 },
+  { x: 22, y: 68, color: '#00e5ff', size: 10, delay: 0.8 },
   { x: 42, y: 12, color: '#ff0054', size: 16, delay: 1.6 },
-  { x: 58, y: 78, color: '#ffb36b', size: 12, delay: 0.4 },
+  { x: 58, y: 78, color: '#ffb1d0', size: 12, delay: 0.4 },
   { x: 74, y: 22, color: '#f6a55e', size: 15, delay: 2.1 },
-  { x: 86, y: 60, color: '#ff0054', size: 11, delay: 1.2 },
+  { x: 86, y: 60, color: '#00e5ff', size: 11, delay: 1.2 },
   { x: 66, y: 88, color: '#ffb36b', size: 9, delay: 2.6 },
   { x: 8, y: 40, color: '#f6a55e', size: 12, delay: 3.1 },
-  { x: 92, y: 36, color: '#ffb36b', size: 14, delay: 0.2 },
+  { x: 92, y: 36, color: '#ffb1d0', size: 14, delay: 0.2 },
 ]
 
 const scrollTo = (id) => {
@@ -130,13 +130,19 @@ export default function Hero() {
           className="mb-6 flex flex-wrap items-center justify-center gap-3"
         >
           <span className="clip-tag bg-neon-magenta/90 px-3 py-1 font-mono text-[11px] tracking-widest text-carbon-950">
-            AGENTE: TU DÚO
+            AGENTE: TU MEJOR AMIGO 
           </span>
           <span className="clip-tag border border-neon-apricot/40 bg-neon-apricot/10 px-3 py-1 font-mono text-[11px] tracking-widest text-neon-apricot">
-            RANGO: FAVORITO
+            RANGO: MEJOR AMIGA
           </span>
           <span className="clip-tag border border-white/10 bg-white/5 px-3 py-1 font-mono text-[11px] tracking-widest text-white/60">
             SERVIDOR 001 · CND JAKARTA
+          </span>
+          <span className="clip-tag border border-neon-cyan/40 bg-neon-cyan/10 px-3 py-1 font-mono text-[11px] tracking-widest text-neon-cyan">
+            🍭 CANDY BONG ∞
+          </span>
+          <span className="clip-tag bg-pastel-pink/15 px-2.5 py-1 font-mono text-[11px] tracking-widest text-pastel-pink">
+            ✨
           </span>
         </motion.div>
 
@@ -161,7 +167,7 @@ export default function Hero() {
           >
             MISIÓN:
           </span>
-          <span className="block bg-gradient-to-r from-neon-apricot via-white to-neon-magenta bg-clip-text text-[clamp(2.2rem,8vw,6rem)] tracking-wide text-transparent [-webkit-text-stroke:1px_rgba(0,0,0,0.6)]">
+          <span className="text-kpop block text-[clamp(2.2rem,8vw,6rem)] tracking-wide [-webkit-text-stroke:1px_rgba(0,0,0,0.6)]">
             HAPPY BIRTHDAY
           </span>
         </motion.h1>
@@ -188,7 +194,7 @@ export default function Hero() {
               playClick('confirm')
               scrollTo('mensaje')
             }}
-            className="clip-btn group relative cursor-pointer bg-neon-magenta px-8 py-3.5 font-display text-lg tracking-widest text-carbon-950 transition-colors hover:bg-neon-pink"
+            className="clip-btn group relative cursor-pointer bg-neon-magenta px-8 py-3.5 font-display text-lg tracking-widest text-carbon-950 transition-colors glow-magenta hover:bg-neon-pink"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -203,7 +209,7 @@ export default function Hero() {
               playClick()
               scrollTo('objetivos')
             }}
-            className="clip-btn cursor-pointer border border-neon-apricot/50 bg-neon-apricot/5 px-8 py-3.5 font-display text-lg tracking-widest text-neon-apricot transition-colors hover:bg-neon-apricot/15"
+            className="clip-btn cursor-pointer border border-neon-cyan/50 bg-neon-cyan/5 px-8 py-3.5 font-display text-lg tracking-widest text-neon-cyan transition-colors glow-cyan hover:bg-neon-cyan/15"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >

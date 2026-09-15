@@ -11,31 +11,54 @@ const TOKENS = [
   { t: 'Cifrado K-Pop activado', c: 'font-bold text-neon-pink' },
   { t: ']...', c: 'text-neon-apricot' },
   { t: '\n\n', c: '' },
-  { t: '▚▚▚▚▚▚▚▚▚▚  TRANSMISIÓN PRIVADA  ▚▚▚▚▚▚▚▚▚▚', c: 'text-white/25' },
+  { t: '▚▚▚▚▚▚▚ 💖  LOVELY TRANSMISIÓN  💖 ▚▚▚▚▚▚▚', c: 'text-white/25' },
   { t: '\n\n', c: '' },
   { t: 'Feliz ', c: 'text-white/90' },
-  { t: 'cumpleaños.', c: 'font-bold text-neon-pink' },
-  { t: ' A lo largo de este tiempo hemos construido algo increíble. Gracias por ser esa ', c: 'text-white/85' },
-  { t: 'compañera incondicional', c: 'text-neon-magenta' },
-  { t: ', por darme ánimos cuando los ', c: 'text-white/85' },
-  { t: 'escudos', c: 'text-neon-pink' },
-  { t: ' están bajos y por convertirte en mi ', c: 'text-white/85' },
-  { t: 'refugio.', c: 'font-bold text-neon-magenta' },
-  { t: ' Eres la ', c: 'text-white/85' },
-  { t: 'Reyna indiscutible', c: 'font-bold text-neon-pink' },
-  { t: ' de este ', c: 'text-white/85' },
-  { t: 'servidor', c: 'text-neon-apricot' },
-  { t: ' y la ', c: 'text-white/85' },
-  { t: 'estrella principal', c: 'font-bold text-neon-pink' },
-  { t: ' que ilumina cualquier escenario. Que este nuevo nivel esté lleno de ', c: 'text-white/85' },
-  { t: 'victorias', c: 'text-neon-apricot' },
-  { t: '; aquí siempre tendrás a tu ', c: 'text-white/85' },
-  { t: 'dúo', c: 'font-bold text-neon-magenta' },
-  { t: ' para ', c: 'text-white/85' },
-  { t: 'cubrirte la espalda.', c: 'text-neon-pink' },
-  { t: ' Te ', c: 'text-white/85' },
-  { t: 'quiero muchísimo.', c: 'font-bold text-neon-pink' },
-  { t: ' ✦', c: 'text-neon-magenta' },
+  { t: 'cumpleaños.', c: 'font-bold text-kpop' },
+  { t: ' A lo largo de este tiempo he conocido a una ', c: 'text-white/85' },
+  { t: 'persona muy divertida', c: 'text-neon-pink' },
+  { t: ', ', c: 'text-white/85' },
+  { t: 'llena de vida', c: 'text-neon-magenta' },
+  { t: ' y con ', c: 'text-white/85' },
+  { t: 'metas altas', c: 'text-neon-pink' },
+  { t: ' que estoy seguro de que ', c: 'text-white/85' },
+  { t: 'vas a lograr', c: 'text-neon-magenta' },
+  { t: ', porque ', c: 'text-white/85' },
+  { t: 'siempre le pones punche', c: 'font-bold text-kpop' },
+  { t: ', te antepones a los problemas y ', c: 'text-white/85' },
+  { t: 'persistes', c: 'text-neon-magenta' },
+  { t: '. ', c: 'text-white/85' },
+  { t: 'Eres mi mejor amiga', c: 'font-bold text-kpop' },
+  { t: ' y quiero ', c: 'text-white/85' },
+  { t: 'darte muchísimas gracias', c: 'text-neon-pink' },
+  { t: ' por ayudarme cuando ', c: 'text-white/85' },
+  { t: 'más lo necesité', c: 'text-neon-magenta' },
+  { t: '. Jamás olvidaré cómo ', c: 'text-white/85' },
+  { t: 'me escuchaste', c: 'text-neon-pink' },
+  { t: ' aquel día en el break del trabajo cuando ', c: 'text-white/85' },
+  { t: 'las lágrimas me ganaban', c: 'text-neon-magenta' },
+  { t: ' y necesitaba desahogarme, ni cómo me diste las ', c: 'text-white/85' },
+  { t: 'alertas y consejos correctos', c: 'text-neon-pink' },
+  { t: ' desde el principio. Gracias por ', c: 'text-white/85' },
+  { t: 'acompañarme', c: 'text-neon-pink' },
+  { t: ' a entrenar a ese ', c: 'text-white/85' },
+  { t: 'Smart Fit', c: 'text-neon-pink' },
+  { t: ' en el ', c: 'text-white/85' },
+  { t: 'Centro Cívico', c: 'text-neon-pink' },
+  { t: ' y ser mi verdadero ', c: 'text-white/85' },
+  { t: "'blindaje emocional'", c: 'font-bold text-kpop' },
+  { t: ' cuando tenía que enfrentar ', c: 'text-white/85' },
+  { t: 'recuerdos difíciles', c: 'text-neon-magenta' },
+  { t: '. A pesar de que hoy no estemos compartiendo el mismo puesto laboral, quería darte esta ', c: 'text-white/85' },
+  { t: 'pequeña muestra de mi enorme cariño y gratitud', c: 'text-neon-pink' },
+  { t: '. Un saludo a la distancia, ', c: 'text-white/85' },
+  { t: 'amiga mía', c: 'font-bold text-kpop' },
+  { t: '. Nos vemos el sábado, ', c: 'text-white/85' },
+  { t: 'cuídate mucho', c: 'text-neon-magenta' },
+  { t: ' y sigue siendo tan ', c: 'text-white/85' },
+  { t: 'random y espontánea', c: 'text-neon-pink' },
+  { t: ' como eres.', c: 'text-white/85' },
+  { t: ' 💖', c: 'text-neon-magenta' },
 ]
 
 const FULL = TOKENS.reduce((acc, tok) => acc + tok.t.length, 0)
@@ -155,9 +178,7 @@ export default function TerminalBox() {
           </p>
           <h2 className="font-display text-4xl uppercase tracking-wide text-white sm:text-5xl">
             Transmisión{' '}
-            <span className="bg-gradient-to-r from-neon-apricot to-neon-magenta bg-clip-text text-transparent">
-              Directa
-            </span>{' '}
+            <span className="text-kpop">Directa</span>{' '}
             para ti
           </h2>
           <p className="mx-auto mt-3 max-w-lg text-sm font-medium leading-relaxed text-white/55">
@@ -173,6 +194,7 @@ export default function TerminalBox() {
           transition={{ duration: 0.7 }}
           className="glass clip-card relative overflow-hidden p-[1px]"
         >
+          <div aria-hidden className="holo" />
           {/* header */}
           <div className="flex items-center justify-between gap-3 border-b border-white/10 px-5 py-3">
             <div className="flex items-center gap-3">

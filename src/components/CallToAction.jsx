@@ -24,7 +24,7 @@ export default function CallToAction() {
           x={x}
           y={20 + (i % 3) * 26}
           size={i % 2 ? 12 : 8}
-          color={i % 2 ? '#f6a55e' : '#ffb36b'}
+          color={i % 2 ? '#00e5ff' : '#ffb1d0'}
           delay={i * 0.7}
         />
       ))}
@@ -41,9 +41,7 @@ export default function CallToAction() {
           </p>
           <h2 className="font-display text-4xl uppercase leading-tight tracking-wide text-white sm:text-5xl">
             Esta amistad{' '}
-            <span className="bg-gradient-to-r from-neon-pink to-neon-magenta bg-clip-text text-transparent">
-              no tiene cooldown
-            </span>
+            <span className="text-kpop">no tiene cooldown</span>
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base font-medium leading-relaxed text-white/65">
             Mejores momentos en la vida, mejores combos en la partida. Si algún
@@ -63,9 +61,9 @@ export default function CallToAction() {
           transition={{ delay: 0.2, duration: 0.4 }}
           whileHover={{ scale: 1.06 }}
           whileTap={{ scale: 0.94 }}
-          className="clip-btn mt-10 cursor-pointer bg-gradient-to-r from-neon-apricot via-white to-neon-pink px-10 py-4 font-display text-xl tracking-[0.15em] text-carbon-950"
+          className="clip-btn glow-cyan mt-10 cursor-pointer bg-gradient-to-r from-pastel-pink via-white to-neon-cyan px-10 py-4 font-display text-xl tracking-[0.15em] text-carbon-950"
         >
-          ACEPTAR CONTRATO ∞
+          ACEPTAR CONTRATO ∞ 💖
         </motion.button>
 
         <AnimatePresence>
@@ -75,8 +73,9 @@ export default function CallToAction() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.4 }}
-              className="glass clip-card mx-auto mt-8 max-w-md px-6 py-5"
+              className="glass clip-card relative mx-auto mt-8 max-w-md overflow-hidden px-6 py-5"
             >
+              <div aria-hidden className="holo" />
               <p className="font-mono text-xs tracking-[0.3em] text-neon-pink">
                 ▸ CONTRATO ACEPTADO
               </p>
@@ -112,7 +111,7 @@ export default function CallToAction() {
           >
             [VOLVER AL LOBBY ↑]
           </button>
-          <span>HECHO CON CUIDADO PARA TI ✦</span>
+          <span>💖 HECHO CON CUIDADO PARA TI ✨</span>
         </div>
       </footer>
     </section>

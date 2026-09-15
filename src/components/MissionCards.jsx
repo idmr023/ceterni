@@ -63,9 +63,7 @@ export default function MissionCards() {
             </p>
             <h2 className="font-display text-4xl uppercase leading-none tracking-wide text-white sm:text-5xl">
               Contratos de{' '}
-              <span className="inline-block bg-gradient-to-r from-neon-pink to-neon-magenta bg-clip-text text-transparent">
-                Amistad
-              </span>
+              <span className="text-kpop inline-block">Amistad</span>
             </h2>
           </div>
           <p className="max-w-xs border-l-2 border-neon-pink/50 pl-4 text-sm font-medium leading-relaxed text-white/60">
@@ -89,24 +87,20 @@ export default function MissionCards() {
             >
               <div
                 aria-hidden
-                className="clip-tag absolute right-0 top-0 h-[3px] w-16 bg-gradient-to-r from-neon-magenta to-neon-pink opacity-80"
+                className="clip-tag absolute right-0 top-0 h-[3px] w-20 bg-gradient-to-r from-neon-cyan via-neon-pink to-neon-magenta opacity-80"
               />
 
               <div className="flex items-start justify-between">
                 <span className="clip-tag bg-white/5 px-2.5 py-1 font-mono text-[10px] tracking-widest text-neon-apricot">
                   {c.tag}
                 </span>
-                <svg
-                  aria-hidden
-                  viewBox="0 0 24 24"
-                  className="h-4 w-4 text-white/25"
-                  fill="currentColor"
-                >
-                  <path d="M12 0 L14.4 9.6 L24 12 L14.4 14.4 L12 24 L9.6 14.4 L0 12 L9.6 9.6 Z" />
-                </svg>
+                <span className="flex h-6 w-6 items-center justify-center rounded-sm border border-neon-cyan/30 bg-neon-cyan/10 text-xs transition-all duration-300 group-hover:border-neon-pink/50 group-hover:bg-neon-pink/15">
+                  💖
+                </span>
               </div>
 
               <div className="mt-5 flex items-baseline gap-3">
+                <span className="pixel-spark mr-1 self-center" aria-hidden />
                 <span className="font-mono text-4xl text-white/15 transition-colors duration-300 group-hover:text-neon-pink/60">
                   {c.num}
                 </span>
@@ -128,7 +122,7 @@ export default function MissionCards() {
                   {c.status}
                 </span>
                 <span className="transition-colors group-hover:text-neon-pink">
-                  [FIRMADO] ✦
+                  [FIRMADO] 💖
                 </span>
               </div>
             </motion.article>
